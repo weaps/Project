@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="../css/iframe.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="register-box">
+			<div class="reg-slogan">用户登录</div>
+			<div class="reg-form" id="js-form-mobile">
+				<div class="cell">
+					<i class="ico mobile"></i>
+					<label for="js-mobile_ipt">手机号</label>
+					<input type="text" name="mobile" id="js-mobile_ipt" class="text" maxlength="11" />
+				</div>
+				<div class="cell">
+					<i class="ico password"></i>
+					<label for="js-mobile_pwd_ipt">密码</label>
+					<input type="password" name="passwd" id="js-mobile_pwd_ipt" class="text" />
+				</div>
+				<!-- !短信验证码 -->
+				<div class="cell vcode" style="margin-bottom:10px;">
+					<i class="ico number"></i>
+					<label for="js-mobile_vcode_ipt">验证码</label>
+					<input type="text" name="code" id="js-mobile_vcode_ipt" class="text" maxlength="6" />
+					<a href="javascript:;" id="js-get_mobile_vcode" class="fr yzm mt5"><img src="../images/yzm.jpeg"></a> 
+				</div>
+				<div class="auto_login" style="margin-bottom:10px;">               
+					<label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox" class="jdradio">七天内自动登录 </label>
+                    <a class="fr cbbb" href="#">忘记密码？</a>
+                </div>
+				<div class="login-bottom"><a href="javascript:;" class="btn_sign_in">登录</a></div>
+				<div class="login-bottom mt20"><a href="register.html" class="btn-9 btn-block f12">免费注册</a></div>
+
+				<!-- 合作帐号登录 -->
+				<div class="coagent ptb10" style="display:none;">
+                    <h5><span class="fl">使用合作网站账号登录：</span><a class="fr ftx-02" href="#">免费注册</a></h5>
+                    <ul>
+                        <li>
+                            <a href="#">新浪微博</a>
+                            <span class="line">|</span>
+                        </li>
+                        <li>
+                            <a href="#">QQ</a>
+                            <span class="line">|</span>
+                        </li>
+                        <li>
+                            <a href="#">微信</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end -->
+			</div>
+			
+		</div>
+
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+var FancyForm=function(){
+	return{
+		inputs:".reg-form input",
+		setup:function(){
+			var a=this;
+			this.inputs=$(this.inputs);
+			a.inputs.each(function(){
+				var c=$(this);
+				a.checkVal(c)
+			});
+			a.inputs.live("keyup blur",function(){
+				var c=$(this);
+				a.checkVal(c);
+			});
+		},checkVal:function(a){
+			a.val().length>0?a.parent("div").addClass("val"):a.parent("div").removeClass("val")
+		}
+	}
+}();
+
+$(document).ready(function() {
+	FancyForm.setup();
+});
+</script>
+</body>
+</html>

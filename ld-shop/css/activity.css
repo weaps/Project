@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background: url(../images/clean-gray-paper.png);
+}
+.zt-content {
+    width: 100%;overflow: hidden;
+}
+#main {
+    width: 1000px;
+    margin:40px auto;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+.zt-content .banner{
+	width: 100%;overflow: hidden;text-align: center;
+}
+.zt-content .banner img{
+	width: 100%;
+}
+.zt{
+	width: 100%;overflow: hidden;
+}
+.zt p{
+	display: block;width: 100%;overflow: hidden;margin-bottom: 40px;text-align: center;background: #fff;border-radius: 4px;
+}
+.zt-list{
+	width: 100%;overflow: hidden;background: #fff;
+}
+.zt-list h1{
+	line-height: 20px;text-align: center;
+}
+.zt-list ul, .zt-list h1{
+	display: block;width: 100%;overflow: hidden;padding: 20px 0;
+}
+.zt-list li{
+	display: block;width: 25%;float: left;overflow: hidden;margin-bottom: 30px;
+}
+.zt-list .li-div{
+	width: 210px;margin: 0 auto;overflow: hidden;
+}
+.zt-list .li-div a.pic {
+    width: 210px;
+    height: 210px;
+    display: block;
+}.zt-list .li-div a.pic img{
+	width: 100%;
+}
+.zt-list .li-div .name{
+	display: block;padding:10px 0;line-height: 14px;text-align: center;height: 28px;overflow: hidden;
+}
+.zt-list .li-div .name a:hover{
+	color: #666;text-decoration: underline;
+}
+.zt-list .li-div .price{
+	height: 20px;display: block;
+}
+.zt-list .li-div .price b{
+	color: #ea2125;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zt-list .li-div .btn{display: block;width: 100%;overflow: hidden;padding: 10px 0;}
+.ui_buy4{
+    width: 210px;
+    height: 35px;
+    background: #f75d57;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 2px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.ui_buy4:hover{
+	color: #fff;text-decoration: none;background: #ee5953;
+}
+
+
+#footer .footer_zd ul, #footer .bottom, .pageFooter{
+    width: 1000px;
+}
+.activity-foot .pageFooter .middle{
+	width: 200px;
+}
+.activity-foot .pageFooter .left {
+    width: 210px;
+}
+.activity-foot .pageFooter .right {
+    width: 580px;
+}

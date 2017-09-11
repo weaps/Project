@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>绿蒂农业wap版</title>
+<link rel="stylesheet" type="text/css" href="../css/base2015.css">
+<link rel="stylesheet" type="text/css" href="../css/2015/category/all_html5.css">
+</head>
+
+<body id="body">
+<header>
+	<div class="new-header">
+    	<a href="../index.html" class="new-a-back" id="backUrl"><span>返回</span></a>
+		<h2>商品分类</h2>
+		<a href="javascript:void(0)" id="btnJdkey" class="new-a-jd"><span>键</span></a>
+	</div>
+	<div class="new-jd-tab" style="display:none" id="jdkey">
+    	<div class="new-tbl-type">
+            <a href="#" class="new-tbl-cell">
+            	<span class="icon">首页</span>
+				<p style="color:#6e6e6e;">首页</p>
+            </a>
+            
+            <a href="#" class="new-tbl-cell">
+            	<span class="icon3">购物车</span>
+				<p style="color:#6e6e6e;">购物车</p>
+            </a>
+            <a href="#" class="new-tbl-cell">
+            	<span class="icon4">我的绿蒂</span>
+				<p style="color:#6e6e6e;">我的绿蒂</p>
+            </a>
+        </div>
+    </div>
+</header>
+<form action="/ware/search.action" id="searchForm" style="display:none;">
+    <div class="new-cate-srch">
+		<div class="new-srch-box">
+        	<input name="keyword" id="newkeyword" type="text" required class="new-srch-input" value="搜索绿蒂商品"><a href="javascript:void(0);" target="_self" onClick="cancelHotWord()" class="new-s-close"></a><a href="javascript:void(0)" target="_self" onClick="$('#searchForm').submit();" class="new-s-srch"><span></span></a>
+        </div>
+    </div>
+</form>
+<div class="new-ct">
+    <div class="new-category">
+        <ul class="new-category-lst">
+            <li class="new-category-li">
+                <a href="javascript:void(0)" id="1315" class="new-category-a"><span class="icon"></span>生鲜食品</a>
+                <ul class="new-category2-lst" id="category1315" style="display:none">
+                    <li class="new-category2-li" >   
+                        <a href="../product/list2.html" class="new-category2-a"><span class="new-bar"></span>热销推荐</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>精品肉类</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>海鲜水产</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>冷藏奶品饮品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>蛋品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>水果</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>蔬菜</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>肉类熟食</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>主食面点</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 酒水饮料 -->
+            <li class="new-category-li">
+                <a href="javascript:void(0)" id="1315" class="new-category-a"><span class="icon"></span>酒水饮料</a>
+                <ul class="new-category2-lst" id="category1315" style="display:none">
+                    <li class="new-category2-li" >   
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>白酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>葡萄酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>洋酒</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>啤酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>其它酒品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>牛奶乳品</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>饮料/水</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>碳酸饮料</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span></a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 酒水饮料 -->
+            <li class="new-category-li">
+                <a href="javascript:void(0)" id="1315" class="new-category-a"><span class="icon"></span>休闲食品</a>
+                <ul class="new-category2-lst" id="category1315" style="display:none">
+                    <li class="new-category2-li" >   
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>白酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>葡萄酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>洋酒</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>啤酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>其它酒品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>牛奶乳品</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>饮料/水</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>碳酸饮料</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span></a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 粮油副食 -->
+            <li class="new-category-li">
+                <a href="javascript:void(0)" id="1315" class="new-category-a"><span class="icon"></span>粮油副食</a>
+                <ul class="new-category2-lst" id="category1315" style="display:none">
+                    <li class="new-category2-li" >   
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>白酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>葡萄酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>洋酒</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>啤酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>其它酒品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>牛奶乳品</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>饮料/水</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>碳酸饮料</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span></a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 保健养生 -->
+            <li class="new-category-li">
+                <a href="javascript:void(0)" id="1315" class="new-category-a"><span class="icon"></span>保健养生</a>
+                <ul class="new-category2-lst" id="category1315" style="display:none">
+                    <li class="new-category2-li" >   
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>白酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>葡萄酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>洋酒</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>啤酒</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>其它酒品</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>牛奶乳品</a>
+                    </li>
+                    <li class="new-category2-li" >
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>饮料/水</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span>碳酸饮料</a>
+                        <a href="#" class="new-category2-a"><span class="new-bar"></span></a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+        </ul>
+    </div>
+</div>
+
+<div class="login-area" id="footer">
+    <div class="login">
+        <a href="#">登录</a><span class="lg-bar">|</span><a href="#">注册</a>
+        <span  class="new-fr"><a href="#">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+    </div>
+    <div class="version"><a href="javascript:void(0)" class="on">触屏版</a><a href="index/pcsite.action" id="toPcHome">电脑版</a></div>
+    <div class="copyright">Copyright 2015 <a href="http://www.ld.com">绿蒂商城</a> All rights reserved.</div>
+</div>
+<script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../js/html5/common.js"></script>
+<script type="text/javascript" src="../js/html5/spin.min.js"></script>
+<script language="javascript">
+    $(function(){
+        $("li.new-category-li>a").click(function(){
+            var obj = $(this).parent().children().eq(1);
+            if(obj.css('display')=='none'){
+                $(".new-category2-lst").hide();
+                obj.fadeIn();
+                $("li.new-category-li>a").removeClass("new-category-a new-on").addClass("new-category-a");
+                $(this).addClass("new-category-a new-on");
+            }else{
+                obj.fadeOut();
+                $("li.new-category-li>a").removeClass("new-category-a new-on").addClass("new-category-a");
+                $(this).removeClass("new-category-a new-on").addClass("new-category-a");
+            }
+        })
+    });
+</script>
+</body>
+</html>

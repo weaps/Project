@@ -1,0 +1,533 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>绿蒂农业wap版</title>	
+<link rel="stylesheet" type="text/css" href="css/base2015.css">
+<link rel="stylesheet" type="text/css" href="css/2015/index/index.css">
+<link rel="stylesheet" type="text/css" href="css\2015\ware/search_html5.css">
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/html5/common.js"></script>
+<script type="text/javascript" src="js/html5/spin.min.js"></script>
+</head>
+
+<body id="body">
+<header class="ui-header">
+    <div class="logo"><img src="images/logo.png"></div>
+    <span class="select-right"><a href="#"><i></i><span class="addtext">安庆</span></a></span>
+</header>
+<script type="text/javascript" src="js/2013/index/index.js"></script>
+<script type="text/javascript">
+    $('body').css('background','#f0f0f0');$(function(){$('.new-footer').css('margin-top','0px');})
+</script>
+
+<!-- 客户端下载提示 -->
+<div class="download-con" id="down_app" style="">
+	<div class="down_app">
+		<div class="download-logo"><img src="images/ico-ld.png"></div>
+		<div class="alogo">
+			<p class="client-name">绿蒂农业</p>
+			<p class="client-logon">您身边的生态菜园</p>
+		</div>
+		<div class="open_now">
+			<a href="#"><span class="open_btn">立即打开</span></a>
+		</div>
+		<div class="close-btn-con close-btn">
+			<span class="close-btn-icon"></span>
+		</div>
+	</div>
+</div>
+
+<!-- main -->
+<div class="main">
+	
+    <!-- 轮播图 -->
+    <div class="banner scroll-wrapper" id="idContainer2" ontouchstart="touchStart(event)" ontouchmove="touchMove(event);" ontouchend="touchEnd(event);">
+		<ul class="scroller" style="position:relative;left:0px;width:600%" id="idSlider2">
+     		<li><a href="#"><img src="img/scroll/1.jpg"/></a></li>
+     		<li><a href="#"><img src="img/scroll/2.jpg"/></a></li>
+            <li><a href="#"><img src="img/scroll/3.jpg"/></a></li>
+            <li><a href="#"><img src="img/scroll/4.jpg"/></a></li>
+            <li><a href="#"><img src="img/scroll/5.jpg"/></a></li>
+            <li><a href="#"><img src="img/scroll/6.jpg"/></a></li>						
+         </ul>        
+        <ul class="new-banner-num new-tbl-type" id="idNum"></ul>
+    </div>
+    <!-- 轮播图 end -->
+	
+    <!-- 搜索 -->
+    <div class="search bgf">
+    	<span class="input-box">
+			<form action="/ware/search.action" id="searchForm">
+                <input name="keyword" type="text" id="newkeyword" class="new-input" placeholder="请输入商品名称">
+			</form>	
+            <a href="search/index.html" class="btn-search"><span>search</span></a>
+        </span>
+		<div class="new-srch-lst" id="shelper" style="position:absolute;top: 2em;left: 3.28em;display:none;width:201px;z-index:10"></div>
+    </div>
+    <!-- 搜索 end -->
+
+    <!-- 快速菜单 -->
+    <div class="category bgf">
+    	<ul class="cate-menu tbl-type"  id="categoryMenu">
+        <li class="tbl-cell route1">
+        	<a href=category/menu-list.html class="menu1" onClick="clickResponse(this)" res="1">
+            	<span class="menu1-icon"><span></span></span>
+                <span class="cate-name">分类</span>
+            </a>
+        </li>
+        <li class="tbl-cell route2">
+            <a href="#" class="menu4" onClick="clickResponse(this)" res="1">
+                <span class="menu2-icon"><span></span></span>
+                <span class="cate-name">优惠</span>
+            </a>
+        </li>
+        <li class="tbl-cell route3">
+        	<a href="cart/index.html" class="menu2">
+            	<span class="menu3-icon"><span></span></span>
+                <span class="cate-name">购物车</span>
+            </a>
+        </li>
+        
+        
+        <li class="tbl-cell route4">
+        	<a href="#" class="menu6" onClick="clickResponse(this)" res="1">
+            	<span class="menu4-icon"><span></span></span>
+                <span class="cate-name">绿卡</span>
+            </a>
+        </li>
+        <li class="tbl-cell route5">
+            <a href="user/index.html" class="menu3" onClick="clickResponse(this)" res="1">
+                <span class="menu5-icon"><span></span></span>
+                <span class="cate-name">我的</span>
+            </a>
+        </li>
+        </ul>
+    </div>
+    <!-- 快速菜单 end -->
+    
+    <!-- 口碑精选 -->
+
+    <div class="tab-menu bgf new-mg-t10">
+        <div class="title"><b>口碑精选</b></div>
+        <ul class="tbl-type">
+            <li class="tbl-cell">
+                <a href="#" class="bdr-right">
+                    <span class="tab-icon"><img src="img/p65.jpg"></span>
+                    <span class="tab-text">¥128.00</span>
+                    <span class="seckill-original-price">¥79.00</span>
+                </a>
+            </li>
+            <li class="tbl-cell">
+                <a href="#" class="bdr-right">
+                    <span class="tab-icon"><img src="img/p66.jpg"></span>
+                    <span class="tab-text">¥28.00</span>
+                    <span class="seckill-original-price">¥9.90</span>
+                </a>
+            </li>
+            <li class="tbl-cell">
+                <a href="#" class="bdr-right">
+                    <span class="tab-icon"><img src="img/p67.jpg"></span>
+                    <span class="tab-text">¥128.00</span>
+                    <span class="seckill-original-price">¥79.00</span>
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+
+    <!-- end -->
+    
+	<!-- 绿蒂生鲜 -->
+	<div class="ad2 bgf">
+    	<h2 class="ad-h2">绿蒂生鲜</h2>
+		<div class="tbl-type">
+            <div class="tbl-cell">
+				    <a href="#">
+                    <img src="img/p68.jpg"  class="half-img" width="160" alt="爆款半壳扇贝">
+                </a>
+            </div>
+            <div class="tbl-cell">
+                <div class="ad1-left">
+					<a href="#" class="ad-border">
+                        <img src="img/p69.jpg" class="half-img" width="160" alt="满99立减30">
+                    </a>
+					<a href="#">
+                        <img src="img/p70.jpg" class="half-img" width="160" alt="前年传承 皇室御用 脆嫩多汁">
+                    </a>
+                </div>
+            </div>
+        </div>
+	</div>
+    <!-- end -->
+	<!-- 酒水饮料 -->
+	<div class="ad2">
+    	<h2 class="ad-h2">酒水饮料</h2>
+		                    <div class="tbl-type">            
+            <div class="tbl-cell">
+                <div class="ad1-right">
+					<a href="#" class="ad-border">
+                        <img src="img/p72.jpg"  class="half-img" width="160">
+                    </a>
+					<a href="#">
+                        <img src="img/p73.jpg"  class="half-img" width="160">
+                    </a>
+                </div>
+            </div>
+            <div class="tbl-cell">
+				<a href="#">
+                    <img src="img/p71.jpg"  class="half-img" width="160">
+                </a>
+            </div>
+        </div>
+	</div>
+								
+												
+	<!-- 休闲食品 -->
+	<div class="ad2 ad2-v1">
+    	<h2 class="ad-h2">休闲食品</h2>
+		                    <div class="tbl-type">
+			<div class="tbl-cell" style="width:50%;">
+				<a href="">
+                    <img src="img/p76.jpg" class="half-img" width="160" alt="京品惠">
+                </a>
+            </div>
+            <div class="tbl-cell" style="width:50%;">
+                <div class="ad1-left2" >
+					<a href="#" class="ad-border2">
+                        <img src="img/p75.jpg" class="half-img" width="160" alt="爱家爱生活-爱萌宠">
+                    </a>
+					<a href="#">
+                        <img src="img/p74.jpg" class="half-img" width="160" alt="生活旅行">
+                    </a>
+                </div>
+            </div>
+        </div>
+	</div>
+								
+	<div class="theme-pavilion">
+		<div class="tbl-type">
+            <span class="tbl-cell">
+                <a href="#"><img src="img/p77.jpg" class="half-img" width="160" alt="服装鞋帽"></a>
+            </span>
+			<span class="tbl-cell">
+                <a href="#"><img src="img/p78.jpg" class="half-img" width="160" alt="数码家电"></a>
+            </span>
+        </div>
+        <div class="tbl-type">
+			<span class="tbl-cell">
+            	<a href="#"><img src="img/p79.jpg" class="half-img" width="160" alt="百货集"></a>
+            </span>
+			<span class="tbl-cell">
+            	<a href="#"><img src="img/p80.jpg" class="half-img" width="160" alt="亲子屋"></a>
+            </span>
+        </div>
+            
+	</div>
+</div>
+<input type="hidden" value="6" id="activity"/>
+<input type="hidden" value="15" id="crazy"/>
+
+<script>
+//活动轮播图
+var picCount = $("#activity").val();
+	$(".pic-num1").css("width",(picCount*30)+"px");
+	var forEach = function(array, callback){
+		for (var i = 0, len = array.length; i < len; i++) { callback.call(this, array[i], i); }
+	}
+	var st = createPicMove("idContainer2", "idSlider2", picCount);	//图片数量更改后需更改此数值
+	var nums = [];
+	//插入数字
+	for(var i = 0, n = st._count - 1; i <= n;i++){
+		var li = document.createElement("li");
+		nums[i] = document.getElementById("idNum").appendChild(li);
+	}
+	//设置按钮样式
+	st.onStart = function(){
+		//forEach(nums, function(o, i){ o.className = ""})
+		forEach(nums, function(o, i){ o.className = st.Index == i ? "new-tbl-cell on" : "new-tbl-cell"; })
+	}
+	// 重新设置浮动
+	$("#idSlider2").css("position","relative");
+	
+	var _initX = 0;
+	var _finishX = 0;
+	var _startX = 0;
+	var _startY = 0;
+	function touchStart(event) {
+		_startX = event.touches[0].clientX;
+		_startY = event.touches[0].clientY;
+		_initX = _startX;
+	}
+	function touchMove(event) {
+		var touches = event.touches;
+		var _endX = event.touches[0].clientX;
+		var _endY = event.touches[0].clientY;
+		if(Math.abs(_endY-_startY)>Math.abs(_endX-_startX)){
+			return;		
+		}
+		event.preventDefault();
+		_finishX = _endX;
+		var _absX = Math.abs(_endX-_startX);
+		var lastX = $('#idSlider2').css('left').replace('px','');
+		if(_startX>_endX){
+			st.Stop();
+			$('#idSlider2').css('left',(parseInt(lastX)-_absX)+'px');
+		}else{
+			st.Stop();
+			$('#idSlider2').css('left',(parseInt(lastX)+_absX)+'px');
+		} 
+		_startX = _endX;
+	}
+	//触屏  离开屏幕事件
+	function touchEnd(event) {
+		if(_finishX==0){
+			return;
+		}
+		if(_initX>_finishX){
+			bindEvent(_initX,_finishX);
+		}else if(_initX<_finishX){
+			bindEvent(_initX,_finishX);
+		}
+		_initX = 0;
+		_finishX = 0;
+	}
+
+    /**
+     *  绑定触屏触发事件
+     * @param start
+     * @param end
+     */
+    function bindEvent(start,end){
+         if (start >= end) {
+                   st.Next();
+                } else {
+                    st.Previous();
+                }
+    }
+	st.Run();
+	var resetScrollEle = function(){
+		$("#shelper").css("width",$("#newkeyword").width()+"px");
+		var slider2Li = $("#idSlider2 li");
+		slider2Li.css("width",$(".scroll-wrapper").width()+"px");
+		$("#shelper").css("width",$("#newkeyword").width()+"px");
+	}
+	
+	window.addEventListener("resize",function(){
+		st.Change = st._slider.offsetWidth/st._count;
+		st.Next();
+		resetScrollEle();
+	});
+	window.addEventListener("orientationchange",function(){
+		st.Change = st._slider.offsetWidth/st._count;
+		st.Next();
+		resetScrollEle();
+	})
+	resetScrollEle();
+	
+		$(function(){
+    	//根据cookie判断用户是否已经主动取消，主动取消了则不再出现提醒
+    	var cookieName="ucTip";
+    	var cancel = false;
+        var start = document.cookie.indexOf(cookieName+"=");
+        if (start !=-1) {
+            start = start+cookieName.length+1;
+            var end = document.cookie.indexOf(";",start);
+            if (end==-1) {end = document.cookie.length;}
+            var ucTip = document.cookie.substring(start,end);
+    		if(ucTip=='1'){
+    			cancel = true; 
+    		}
+    	}
+    	if(!cancel){
+    		//外层div元素
+    		var ucElement = $('<div>').attr('id','ucTip').css({"position":"fixed","bottom":"30%","z-index":"10001","border":"0","display":"none"});
+    		//frame元素，目前UC只支持该接入类型
+    		var ucFrame = $('<iframe>').css({"height":"160px","width":"320px","border":"0px"}).attr('src','../app.uc.cn/appstore/AppCenter/frame@uc_param_str=nieidnutssvebipfcp&api_ver=2.0&id=445&bg=#ffffff');
+    		ucElement.append(ucFrame);
+    		//将元素添加到页面
+    		$('body').append(ucElement);
+    		//回调方法
+    		window.addEventListener("message",function(event){
+    			var dt = event.data.type;
+    			var dm = event.data.message;
+    			//判断出现的情况
+    			if(dm!='not android uc' && dm!='not exist' && dm!='browser version error' && dm!='already exist' && dm!=undefined){
+    				$('#ucTip').show();
+    			}
+    			//判断隐藏的情况
+    			if (dm == 'success' || dm=='cancle' || dm=='close'){
+        			$('#ucTip').hide();
+    				//如果用户主动取消，则记录到cookie，30天内不再提醒
+    				if(dm=='cancle'){
+    					var expires = new Date();
+    					expires.setTime(expires.getTime() + 30*24*60*60*1000);
+    					document.cookie=cookieName+'=1;expires='+expires.toGMTString()+';path=/;domain=.ld.com';
+    					document.cookie=cookieName+'=1;expires='+expires.toGMTString()+';path=/;domain=.ld.com';
+    				}
+        		}
+    		},false);
+    	}
+    });
+		function clickResponse(obj){
+		$('[res]').removeClass('on');
+		$(obj).addClass('on');
+		setTimeout(function(){
+			$(obj).removeClass('on');
+		},700);
+	}
+	$("#newkeyword").focus(function(){
+		setTimeout(function(){
+			 window.scrollTo(0,$("#newkeyword").offset().top-60);
+		 },10);		
+	});
+	$(document).ready(function(){
+		$("#categoryMenu li").addClass("route");
+	})
+	$(document).ready(function(){
+		var script = document.createElement("script");
+		script.src = "js/2013/installapp.js";
+		script.type="text/javascript";
+		document.getElementsByTagName("head")[0].appendChild(script);
+	})
+</script>	
+   
+<div class="login-area" id="footer">
+	<div class="login">
+		<a href="#">登录</a><span class="lg-bar">|</span><a href="#">注册</a>
+		<span  class="new-fr"><a href="#">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+    </div>
+	<div class="version"><a href="javascript:void(0)" class="on">触屏版</a><a href="index/pcsite.action" id="toPcHome">电脑版</a></div>
+    <div class="copyright">Copyright 2015 <a href="http://www.ld.com">绿蒂商城</a> All rights reserved.</div>
+</div>
+
+
+<!-- 搜索 -->
+<div class="ld-search-main">
+    <div class="ld-header-home-wrapper">
+        <div class="ld-search-container on-focus" id="index_search_head">
+            <div class="ld-search-box">
+                <div class="ld-search-tb">
+                    <div class="ld-search-icon">
+                        <span id="index_search_bar_cancel" class="ld-search-icon-cancel"><i class="ld-sprite-icon"></i></span>
+                    </div>
+                    <form action="/ware/search.action" id="index_searchForm" class="ld-search-form">
+                        <div class="ld-search-form-box">
+                           <div class="ld-search-form-input">
+                                <input type="text" value="" placeholder="冬日滋补佳品低至9.9" class="hilight1" id="testInput">
+                          </div>
+                           <a href="#" class="ld-search-form-action"><span class="ld-sprite-icon"></span></a>
+                        </div>
+                    </form>
+                    
+                 </div>
+            </div>         
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="search-lading-area">
+        <div style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);" class="hot-search-new-bar" id="searchhistory_4">
+            <strong>热搜</strong>
+            <span class="search_replace" id="searchhistory_3"></span>
+            <div style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);" class="search-landing-tags" id="searchhistory_2">
+                <a href="#"><span>冬季养生</span></a>
+                <a href="#"><span>iPhone 6</span></a>
+                <a href="#"><span>饥饿游戏3</span></a>
+                <a href="#"><span>取暖器</span></a>
+                <a href="#"><span>牛奶</span></a>
+                <a href="#"><span>拉拉裤</span></a>
+            </div>
+        </div>
+        <ul id="searchhistory_1" class="search-landing-keywords">
+            <strong>历史</strong>
+            <li class="search-history-li"><a href="#"><span class="search-landing-entry">蓝牙音箱</span></a></li>
+            <li class="search-history-li"><a href="#"><span class="search-landing-entry">拉拉裤</span></a></li>
+            <li class="search-history-li"><a href="#"><span class="search-landing-entry">饥饿游戏3</span></a></li>
+            <li class="search-history-li"><a href="#"><span class="search-landing-entry">iPhone 6</span></a></li>
+            <li class="search-history-li"><a href="#"><span class="search-landing-entry">鞋</span></a></li>
+        </ul>
+        <div style="display: block;" class="search-landing-clear"><span id="searchhistory_6">清空历史搜索</span></div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+$("#unsupport").hide();
+    if(!testLocalStorage()){ //not support html5
+        if(0!=0 && !$clearCart && !$teamId){
+    		$("#html5_cart_num").text(0>0>0);
+    	}
+    }else{
+    	updateToolBar('index');
+    }
+
+    $("#html5_cart").click(function(){
+    //	syncCart('e0d0f025d6d3e8e8d7be5428c43ef911',true);
+    	location.href='cart/cart.action';
+});
+
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="e0d0f025d6d3e8e8d7be5428c43ef911"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='airline/index.action@sid=e0d0f025d6d3e8e8d7be5428c43ef911';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+
+    //客户端下载提示
+    $('.close-btn').click(function(){
+         
+      $("#down_app").hide();
+
+    });
+//      $(".ld-search-icon").
+    $("#newkeyword").focus(function(){
+      $(".ld-search-main").css("display","block");
+      $(".search").css("display","none")
+
+
+
+    });
+
+    $(".ld-search-icon").click(function(){
+      
+        $(".ld-search-main").css("display","none")
+        $(".search").css("display","block")
+    });
+	
+
+    
+</script>
+<script type="text/javascript">
+    
+</script>
+</body>
+</html>

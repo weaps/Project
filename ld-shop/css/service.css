@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*购物车头部*/
+.topMenu{padding-top: 0;background: none;}
+.service #header{width: 980px;}
+.pageFooter,#footer .bottom, .service .pW{width: 980px;}
+.header_inner .search{position:absolute;width:364px;margin:0;padding:0;right:248px;top:28px}
+.header_inner .search input.text{border:1px solid #00923f;width:275px;height:34px;line-height:34px \9;padding:0 0 0 4px;vertical-align:middle;float:left}
+/*nav*/
+.service-nav{width: 980px;margin: 0 auto;height: 40px;background: #84c225;}
+.service-nav .navmenu{width: 980px;}
+.service-nav .menu1{width: 780px;}
+.service-nav .menu1 ul{width: 100%;}
+.menu1 li a{color: #fff;font-weight: 500;}
+.service-nav .navmenu .categories{background: #76ac25;}
+#bd{width:980px;margin:0 auto;padding:20px 0 65px;overflow: hidden;}
+.pageFooter .left {margin: 35px 0 0 100px;}
+
+
+/*left*/
+
+.component-service-nav{position:relative;float:left;width:159px;border-right:0;background:#fff;padding-bottom: 50px;}
+
+	.component-service-nav .v{float:left;width:9px;height:9px;overflow:hidden;background:url(../images/BuynBtn.png) no-repeat -9px 0px;display:inline-block;margin-top:-5px;margin-bottom:-5px;font-size: 1px;}
+	.component-service-nav .v01{background-position:-9px 0px;}
+	.component-service-nav .v02{background-position:-9px -9px;}
+	.component-service-nav .vtitle{font-size:16px;color:#4d4d4d;cursor:pointer;font-weight: 600;background: url(../images/component-service-nav.png)no-repeat center bottom;}
+	.component-service-nav .vtitle h5{display: block;line-height: 35px;width: 90%;padding-left: 10%;}
+	.component-service-nav .vtitle em{margin:12px 10px 0 0;}
+	.component-service-nav .vconlist{width: 100%;overflow: hidden;border-top: 1px solid #fafafa;padding-bottom: 10px;}
+	.component-service-nav .vconlist li a{height:30px;line-height:30px;padding-left:36px;display:block;font-size:12px;color:#866f67;font-weight: normal;}
+	.component-service-nav .vconlist li.select a,.vconlist li a:hover{color:#76ac25;text-decoration:none;}
+
+
+	
+/*content*/
+#bd #content{float: right;width: 800px;overflow: hidden;}
+#bd #content .title{width: 100%;line-height: 40px;border-bottom: 1px solid #eee;}
+#bd #content .title strong{padding-left: 10px; font-size: 14px; color: #333;}
+.service-con{width: 90%;padding: 20px 5%;overflow: hidden;}
+.service-con p{display: block;width: 100%;overflow: hidden;line-height: 25px;padding-bottom: 25px;color: #666;}
+.service-con p strong{font-weight: 600;font-size: 14px; color: #333;display: block;padding-bottom: 5px;}
+.service-con p span{text-indent: 2em;display: block;}
+.service-con .p-img{display: block;width: 100%;overflow: hidden;text-indent: 0;padding-top: 20px;}
+.service-con .p-img img{border-radius: 2px;-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);box-shadow: 0 1px 2px rgba(0,0,0,0.07);}

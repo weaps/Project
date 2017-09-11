@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="../css/iframe.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="form" id="consignee-form">
+	<div class="item" id="name_div">
+		<span class="label"><en>*</en>收货人：</span>
+		<div class="fl">
+			<input type="text" class="itxt" value="" tabindex="1">
+		</div>
+	</div>
+	<div class="item">
+		<span class="label"><en>*</en>所在地区：</span>
+		<div class="fl">
+			<span id="span_area">
+			  	<span>
+				  	<select class="selt">
+				  		<option value="">请选择：</option>
+				  		<option value="1">北京</option>
+				  		<option value="2">上海</option>
+				  		<option value="3">天津</option>
+				  	</select>
+			  	</span>
+			   <span>
+			   		<select class="selt">
+			   			<option value="">请选择：</option>
+			   		</select>
+			   </span>
+			   <span>
+			   		<select class="selt">
+			   			<option value="">请选择：</option>
+			   		</select>
+			   </span>
+	        </span>
+			<span class="error-msg"></span>
+		</div>
+	</div>
+	<div class="item">
+		<span class="label" id="address_div"><en>*</en>详细地址：</span>
+		<div class="fl">
+			<input type="text" class="itxt itxt02" value="">
+			<span class="error-msg message">请您填写收货人详细地址</span>
+		</div>
+	</div>
+	<div class="item" id="call_div">
+		<span class="label"><en>*</en>手机号码：</span>
+		<div class="fl">
+			<input type="text" class="itxt" value="">
+		</div>
+		<span class="error-msg"></span>
+	</div>
+	<div class="item" id="email_div">
+		<span class="label">邮箱：</span>
+		<div class="fl">
+			<input type="text" class="itxt">
+			<span class="error-msg">ssss</span>
+			<div class="cbbb">用来接收订单提醒邮件，便于您及时了解订单状态</div>
+		</div>
+	</div>
+	<div class="item">
+		<span class="label">&nbsp;</span>
+		<div class="fl">
+			<a href="#" class="btn-9 btn-hover">保存收货人信息</a>
+			<div class="loading loading-1" style="display:none"><b></b>正在提交信息，请等待！</div>
+			<!--a href="#none" class="btn-9 ml10">取消</a-->
+		</div>
+		<div style="display:none"><input id="consignee_form_reset" name="" type="reset"></div>
+	</div>
+	
+		<!--yanwenqi 全球购添加身份证号下面-->
+			<!--end-->
+</div>
+</body>
+</html>
